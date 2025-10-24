@@ -4,8 +4,7 @@ import numpy as np
 import os
 
 # Load the saved model
-with open('gold_price_model.pkl', 'rb') as f:
-    model = pickle.load(f)
+model = pickle.load(open('gold_price_model.pkl', 'rb'))
 
 # App title
 st.title("Gold Price Prediction App")
