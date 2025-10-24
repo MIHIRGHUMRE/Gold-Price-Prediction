@@ -4,7 +4,8 @@ import numpy as np
 import os
 
 # Load the saved model
-model = pickle.load(open('gold_price_model.pkl', 'rb'))
+with open('gold_price_model.pkl', 'rb') as f:
+    model = pickle.load(f)
 
 # App title
 st.title("Gold Price Prediction App")
@@ -28,3 +29,4 @@ if st.button("Predict Gold Price"):
 
     # Display result
     st.success(f"Predicted Gold Price (GLD): ${prediction:.2f}")
+
