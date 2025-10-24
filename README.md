@@ -73,7 +73,3 @@ Overall, this project highlights the successful integration of data preprocessin
 
 ## Screenshots
 <img width="1919" height="986" alt="Screenshot 2025-10-24 180513" src="https://github.com/user-attachments/assets/047a675a-4060-4ec2-a5bd-7652be56f02a" />
-
-
-   git clone https://github.com/yourusername/Gold-Price-Prediction.git
-   cd Gold-Price-Prediction
