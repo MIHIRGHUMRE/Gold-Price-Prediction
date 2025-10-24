@@ -1,9 +1,15 @@
 import streamlit as st
 import pickle
 import numpy as np
+import os
+
+current_folder = os.path.dirname(__file__)
+
+# Build the full path to the model
+model_path = os.path.join(current_folder, 'gold_price_model.pkl')
 
 # Load the saved model
-model = pickle.load(open('gold_price_model.pkl', 'rb'))
+model = pickle.load(open(model_path, 'rb'))
 
 # App title
 st.title("Gold Price Prediction App")
@@ -27,3 +33,4 @@ if st.button("Predict Gold Price"):
 
     # Display result
     st.success(f"Predicted Gold Price (GLD): ${prediction:.2f}")
+
