@@ -32,7 +32,7 @@ Gold Price Prediction is a machine learning project aimed at forecasting the fut
 ## Tech Stack
 - **Programming Language:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Streamlit  
-- **IDE/Environment:** Jupyter Notebook  
+- **IDE/Environment:** PyCharm, Jupyter Notebook
 - **Deployment:** Streamlit  
 
 ## Deployment
@@ -61,7 +61,7 @@ Follow these steps to run the project on your local machine:
     ```bash
     streamlit run app.py
 
-5. **Open the app**
+5. **Open the app**<br>
     Open the provided local URL in your browser to interact with the gold price prediction tool.
 
 ## Results and Conclusion
