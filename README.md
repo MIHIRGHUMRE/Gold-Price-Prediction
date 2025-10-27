@@ -36,7 +36,7 @@ Gold Price Prediction is a machine learning project aimed at forecasting the fut
 - **Deployment:** Streamlit  
 
 ## Deployment
-Access the interactive web application here: 
+Access the interactive web application here: https://gold-price-prediction-liabevgxt28pekcqk345dz.streamlit.app/
 
 ## How to Run Locally
 Follow these steps to run the project on your local machine:
